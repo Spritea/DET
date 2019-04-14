@@ -7,8 +7,9 @@ is made publicly available, including the raw event data, accumulated images and
 ### DET Components
 
 DET consists of the raw event data, accumulated images over 30ms and corresponding lane labels. 
+
 <div  align="center">    
-<img src="dataset.jpg" alt="sample" align=center /> Samples of DET.
+![samples](dataset.jpg) Samples of DET.
 </div>
 
 #### Raw Event Data
