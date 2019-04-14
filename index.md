@@ -8,40 +8,25 @@ is made publicly available, including the raw event data, accumulated images and
 
 DET consists of the raw event data, accumulated images over 30ms and corresponding lane labels.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 #### Raw Event Data
 We mount the event-camera CeleX V with high resolution 1280x800 on a car in different locations and record event streams by driving in Wuhan City at different time. We record over 5 hours of event stream with a sampling rate of MHz. The file size of raw event stream is as large as 240 GB, which is also made publicly available.
 
 The raw event data is provided here. Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
 #### Accumulated Images
-We compress the raw event stream along the time dimension with <sup>&Delta;</sup> t = 30 ms. 4t denotes the event stream time span that one single image corresponds to. This is illustrated in Fig.1. Then we get over 150,000 images from raw event stream. We carefully
-choose 5,424 images containing various scenes to label.
+We compress the raw event stream along the time dimension with <sup>&Delta;</sup>t = 30 ms. <sup>&Delta;</sup>t denotes the event stream time span that one single image corresponds to. Then we get over 150,000 images from raw event stream. We carefully choose 5,424 images containing various scenes to label.
 
+For these images, we found that there are some noise pixels due to the event camera imaging characteristic. We simply use median filter to remove these pixels and get clean images. We provide both raw images and filtered images publicly, as shown in Fig.3. We recommend researchers to adopt raw images as they are more close to real world and
+retain more details. Filtered images would lose some details anyway.
+#### Lane Labels
+We provide two types of lane labels, multi-class format and binary format. Multi-class format discriminates between diferent lanes, while binary format doesn't. 
 
-### Jekyll Themes
+For DET, we define lane extraction as a task to extract lanes and differentiate lanes from each other, which means we use multi-class format. We argue it's more close to practice because you need to determine which are the ego lanes for following applications. Accumulated images and corresponding labels are available here.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Spritea/DET/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-### Misc.
-- The DVS devise we used to construct DET: CeleX V
+### Links
+- The raw event data.
+- The accumulated images and corresponding labels.
+- The software and API provided by Cele Pixel company to deal with raw event data: [SDK](https://github.com/CelePixel/CeleX5-MIPI).
+- The DVS devise we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
 
 
 ### Contact
