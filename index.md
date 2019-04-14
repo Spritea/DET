@@ -33,7 +33,7 @@ We mount the event-camera CeleX V with high resolution 1280x800 on a car in diff
 
 The raw event data is provided here. Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
 #### Accumulated Images
-We compress the raw event stream along the time dimension with &Delta t = 30 ms. 4t denotes the event stream time span that one single image corresponds to. This is illustrated in Fig.1. Then we get over 150,000 images from raw event stream. We carefully
+We compress the raw event stream along the time dimension with <sup>&Delta;</sup> t = 30 ms. 4t denotes the event stream time span that one single image corresponds to. This is illustrated in Fig.1. Then we get over 150,000 images from raw event stream. We carefully
 choose 5,424 images containing various scenes to label.
 
 
