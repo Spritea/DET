@@ -8,10 +8,7 @@ is made publicly available, including the raw event data, accumulated images and
 
 DET consists of the raw event data, accumulated images over 30ms and corresponding lane labels. 
 
-
 ![samples](dataset.jpg)
-
-
 #### Raw Event Data
 We mount the event-camera CeleX V with high resolution 1280x800 on a car in different locations and record event streams by driving in Wuhan City at different time. We record over 5 hours of event stream with a sampling rate of MHz. The file size of raw event stream is as large as 240 GB, which is also made publicly available.
 
