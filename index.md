@@ -26,7 +26,7 @@ For DET, we define lane extraction as a task to extract lanes and differentiate 
 - The raw event data.
 - The accumulated images and corresponding labels.
 - The software and API provided by Cele Pixel company to deal with raw event data: [SDK](https://github.com/CelePixel/CeleX5-MIPI).
-- The DVS devise we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
+- The DVS device we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
 
 
 ### Contact
