@@ -15,7 +15,7 @@ The raw event data is provided here. Note that it has the binary file format. To
 #### Accumulated Images
 We compress the raw event stream along the time dimension with <sup>&Delta;</sup>t = 30 ms. <sup>&Delta;</sup>t denotes the event stream time span that one single image corresponds to. Then we get over 150,000 images from raw event stream. We carefully choose 5,424 images containing various scenes to label.
 
-For these images, we found that there are some noise pixels due to the event camera imaging characteristic. We simply use median filter to remove these pixels and get clean images. We provide both raw images and filtered images publicly, as shown in Fig.3. We recommend researchers to adopt raw images as they are more close to real world and
+For these images, we found that there are some noise pixels due to the event camera imaging characteristic. We simply use median filter to remove these pixels and get clean images. We provide both raw images and filtered images publicly. We recommend researchers to adopt raw images as they are more close to real world and
 retain more details. Filtered images would lose some details anyway.
 #### Lane Labels
 We provide two types of lane labels, multi-class format and binary format. Multi-class format discriminates between diferent lanes, while binary format doesn't. 
