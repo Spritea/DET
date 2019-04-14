@@ -8,14 +8,6 @@ is made publicly available, including the raw event data, accumulated images and
 
 DET consists of the raw event data, accumulated images over 30ms and corresponding lane labels.
 
-#### Raw Event Data
-
-
-
-
-
-
-
 ```markdown
 Syntax highlighted code block
 
@@ -36,10 +28,21 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+#### Raw Event Data
+We mount the event-camera CeleX V with high resolution 1280x800 on a car in different locations and record event streams by driving in Wuhan City at different time. We record over 5 hours of event stream with a sampling rate of MHz. The file size of raw event stream is as large as 240 GB, which is also made publicly available.
+
+The raw event data is provided here. Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
+#### Accumulated Images
+We compress the raw event stream along the time dimension with &Delta t = 30 ms. 4t denotes the event stream time span that one single image corresponds to. This is illustrated in Fig.1. Then we get over 150,000 images from raw event stream. We carefully
+choose 5,424 images containing various scenes to label.
+
 
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Spritea/DET/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Misc.
+- The DVS devise we used to construct DET: CeleX V
+
 
 ### Contact
 
