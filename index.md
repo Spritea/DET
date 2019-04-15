@@ -11,7 +11,7 @@ DET consists of the raw event data, accumulated images over 30ms and correspondi
 ![sample](dataset.jpg)
 
 #### Raw Event Data
-We mount the event-camera CeleX V with high resolution 1280x800 on a car in different locations and record event streams by driving in Wuhan City at different time. We record over 5 hours of event stream with a sampling rate of MHz. The file size of raw event stream is as large as 240 GB, which is also made publicly available.
+We mount the event-camera CeleX V with high resolution 1280x800 on a car in different locations and record event streams by driving in Wuhan City at different time. We record over 5 hours of event stream with a sampling rate of MHz. 
 
 The raw event data is provided here. Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
 #### Accumulated Images
