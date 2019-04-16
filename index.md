@@ -13,7 +13,7 @@ DET consists of the raw event data, accumulated images over 30ms and correspondi
 #### Raw Event Data
 We mount the event-camera CeleX V with high resolution 1280x800 on a car in different locations and record event streams by driving in Wuhan City at different time. We record over 5 hours of event stream with a sampling rate of MHz. 
 
-The raw event data is provided here. Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
+The raw event data is provided at [Mega](https://mega.nz/#F!StJ1UaAI!6FK4BFS7_EKhBE0dJwdaZA). Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
 #### Accumulated Images
 We compress the raw event stream along the time dimension with <sup>&Delta;</sup>t = 30 ms. <sup>&Delta;</sup>t denotes the event stream time span that one single image corresponds to. Then we get over 150,000 images from raw event stream. We carefully choose 5,424 images containing various scenes to label.
 
@@ -25,7 +25,7 @@ We provide two types of lane labels, multi-class format and binary format. Multi
 For DET, we define lane extraction as a task to extract lanes and differentiate lanes from each other, which means we use multi-class format. We argue it's more close to practice because you need to determine which are the ego lanes for following applications. Accumulated images and corresponding labels are available on [GoogleDrive](https://drive.google.com/open?id=1Jyc_ioMQwWut3ZSKaVJkyyl3XAa4QXAx).
 
 ### Links
-- The raw event data.
+- The raw event data is provided at [Mega](https://mega.nz/#F!StJ1UaAI!6FK4BFS7_EKhBE0dJwdaZA). Use Chrome to open this link to avoid installing Mega desktop software.
 - The accumulated images and corresponding labels: [GoogleDrive](https://drive.google.com/open?id=1Jyc_ioMQwWut3ZSKaVJkyyl3XAa4QXAx).
 - The software and API provided by Cele Pixel company to deal with raw event data: [SDK](https://github.com/CelePixel/CeleX5-MIPI).
 - The DVS device we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
