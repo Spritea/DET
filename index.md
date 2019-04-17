@@ -22,14 +22,14 @@ retain more details. Filtered images would lose some details anyway.
 #### Lane Labels
 We provide two types of lane labels, multi-class format and binary format. Multi-class format discriminates between diferent lanes, while binary format doesn't. 
 
-For DET, we define lane extraction as a task to extract lanes and differentiate lanes from each other, which means we use multi-class format. We argue it's more close to practice because you need to determine which are the ego lanes for following applications. Accumulated images and corresponding labels are available on [GoogleDrive](https://drive.google.com/open?id=1Jyc_ioMQwWut3ZSKaVJkyyl3XAa4QXAx).
+For DET, we define lane extraction as a task to extract lanes and differentiate lanes from each other, which means we use multi-class format. We argue it's more close to practice because you need to determine which are the ego lanes for following applications. Accumulated images and corresponding labels are available on [Mega](https://mega.nz/#F!jphUjKKY!8_smkRDFS0bi8uvxfQuFlQ). We also provide codes to filter images, tranfer multi-class labels into binary labels, and visualize labels at the [Kit](https://github.com/Spritea/DET/tree/master/Kit).
 
 ### Links
 - The raw event data is provided at [Mega](https://mega.nz/#F!StJ1UaAI!6FK4BFS7_EKhBE0dJwdaZA). Use Chrome to open this link to avoid installing Mega desktop software.
-- The accumulated images and corresponding labels: [GoogleDrive](https://drive.google.com/open?id=1Jyc_ioMQwWut3ZSKaVJkyyl3XAa4QXAx).
+- The accumulated images and corresponding labels: [Mega](https://mega.nz/#F!jphUjKKY!8_smkRDFS0bi8uvxfQuFlQ).
 - The software and API provided by Cele Pixel company to deal with raw event data: [SDK](https://github.com/CelePixel/CeleX5-MIPI).
 - The DVS device we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
-
+- Development Code: [Kit](https://github.com/Spritea/DET/tree/master/Kit).
 
 ### Contact
 
