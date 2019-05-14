@@ -15,7 +15,7 @@ We mount the event-camera CeleX V with high resolution 1280x800 on a car in diff
 
 The raw event data is provided at Mega(see the table below). Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
 
-Raw Event Data | File Size |Cloud Disk Link
+Raw Event Data |File Size |Link
 ------------ | -------------| -------------
 20190217_1156 | 2.83  GB |[Mega](https://mega.nz/#F!rZsi3I6J!AOdnsHfvqnR47Yc1YBIFtQ)
 20190222_1427 | 6.41  GB |[Mega](https://mega.nz/#F!rZsi3I6J!AOdnsHfvqnR47Yc1YBIFtQ)
