@@ -41,6 +41,18 @@ For DET, we define lane extraction as a task to extract lanes and differentiate 
 - The DVS device we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
 - Development Code: [Kit](https://github.com/Spritea/DET/tree/master/Kit).
 
+### Citation
+
+If this is helpful for you, please consider to cite the publication:
+```
+@inproceedings{det,
+  author = {Cheng, Wensheng* and Luo, Hao* and Yang, Wen and Yu, Lei and Chen, Shoushun and Li, Wei},
+  title = {{DET}: A High-resolution DVS Dataset for Lane Extraction},
+  year = {2019},
+  booktitle = {Proc. IEEE Conf. Comput. Vis. Pattern Recog. Workshops}
+}
+```
+
 ### Contact
 
 If you have any problem/suggestion about DET, please contact cwsinwhu@whu.edu.cn.
