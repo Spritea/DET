@@ -47,7 +47,7 @@ If this is helpful for you, please consider to cite the publication:
 ```
 @inproceedings{det,
   author = {Cheng, Wensheng* and Luo, Hao* and Yang, Wen and Yu, Lei and Chen, Shoushun and Li, Wei},
-  title = {{DET}: A High-resolution DVS Dataset for Lane Extraction},
+  title = {DET: A High-resolution DVS Dataset for Lane Extraction},
   year = {2019},
   booktitle = {Proc. IEEE Conf. Comput. Vis. Pattern Recog. Workshops}
 }
