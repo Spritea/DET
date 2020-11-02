@@ -17,12 +17,12 @@ The raw event data is provided at Mega(see the table below). Note that it has th
 
 Raw Event Data | File Size |Cloud Disk Link
 ------------ | -------------| -------------
-20190217_1156 | 2.83  GB |[Mega share link](https://mega.nz/#F!rZsi3I6J!AOdnsHfvqnR47Yc1YBIFtQ)
-20190222_1427 | 6.41  GB |[Mega share link](https://mega.nz/#F!rZsi3I6J!AOdnsHfvqnR47Yc1YBIFtQ)
-20170217_1205 | 10.40 GB |[Mega share link](https://mega.nz/#F!ef5ATKJQ!ovDXBeOEE0S-fc7REnZkHg)
-20190222_1451 | 6.94  GB |[Mega share link](https://mega.nz/#F!zPxCkIgT!cTKIO-ZkRvgz88r5oWOZJw)
-20190222_1707 | 5.89  GB |[Mega share link](https://mega.nz/#F!zPxCkIgT!cTKIO-ZkRvgz88r5oWOZJw)
-20190222_1645 | 10.44 GB |[Mega share link](https://mega.nz/#F!StJ1UaAI!6FK4BFS7_EKhBE0dJwdaZA)
+20190217_1156 | 2.83  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
+20190222_1427 | 6.41  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
+20170217_1205 | 10.40 GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
+20190222_1451 | 6.94  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
+20190222_1707 | 5.89  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
+20190222_1645 | 10.44 GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
 
 #### Accumulated Images
 We compress the raw event stream along the time dimension with <sup>&Delta;</sup>t = 30 ms. <sup>&Delta;</sup>t denotes the event stream time span that one single image corresponds to. Then we get over 150,000 images from raw event stream. We carefully choose 5,424 images containing various scenes to label.
