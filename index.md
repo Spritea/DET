@@ -15,14 +15,14 @@ We mount the event-camera CeleX V with high resolution 1280x800 on a car in diff
 
 The raw event data is provided at Mega(see the table below). Note that it has the binary file format. To deal with this data, you need to use specialized software provided by Cele Pixel company. The software and API are available [here](https://github.com/CelePixel/CeleX5-MIPI). 
 
-Raw Event Data | File Size |Cloud Disk Link
------------- | -------------| -------------
-20190217_1156 | 2.83  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
-20190222_1427 | 6.41  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
-20170217_1205 | 10.40 GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
-20190222_1451 | 6.94  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
-20190222_1707 | 5.89  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
-20190222_1645 | 10.44 GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing)
+Raw Event Data | File Size |Google Drive | Hugging Face
+------------ | -------------| ------------- | -------------
+20190217_1156 | 2.83  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing) | [Hugging Face link](https://huggingface.co/datasets/Spritea/DET_bin/tree/main)
+20190222_1427 | 6.41  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing) | [Hugging Face link](https://huggingface.co/datasets/Spritea/DET_bin/tree/main)
+20170217_1205 | 10.40 GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing) | [Hugging Face link](https://huggingface.co/datasets/Spritea/DET_bin/tree/main)
+20190222_1451 | 6.94  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing) | [Hugging Face link](https://huggingface.co/datasets/Spritea/DET_bin/tree/main)
+20190222_1707 | 5.89  GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing) | [Hugging Face link](https://huggingface.co/datasets/Spritea/DET_bin/tree/main)
+20190222_1645 | 10.44 GB |[Google drive link](https://drive.google.com/drive/folders/1glMJ-0FZmItH7ZYqIG6APyDZ0QztYnoz?usp=sharing) | [Hugging Face link](https://huggingface.co/datasets/Spritea/DET_bin/tree/main)
 
 #### Accumulated Images
 We compress the raw event stream along the time dimension with <sup>&Delta;</sup>t = 30 ms. <sup>&Delta;</sup>t denotes the event stream time span that one single image corresponds to. Then we get over 150,000 images from raw event stream. We carefully choose 5,424 images containing various scenes to label.
@@ -32,11 +32,11 @@ retain more details. Filtered images would lose some details anyway.
 #### Lane Labels
 We provide two types of lane labels, multi-class format and binary format. Multi-class format discriminates between diferent lanes, while binary format doesn't. 
 
-For DET, we define lane extraction as a task to extract lanes and differentiate lanes from each other, which means we use multi-class format. We argue it's more close to practice because you need to determine which are the ego lanes for following applications. Accumulated images and corresponding labels are available on [GoogleDrive](https://drive.google.com/drive/folders/1tahDItA46QiCfvZxZeH0YCTgSR8IU2up?usp=sharing). We also provide codes to filter images, tranfer multi-class labels into binary labels, and visualize labels at the [Kit](https://github.com/Spritea/DET/tree/master/Kit).
+For DET, we define lane extraction as a task to extract lanes and differentiate lanes from each other, which means we use multi-class format. We argue it's more close to practice because you need to determine which are the ego lanes for following applications. Accumulated images and corresponding labels are available on [GoogleDrive](https://drive.google.com/drive/folders/1tahDItA46QiCfvZxZeH0YCTgSR8IU2up?usp=sharing) and [Hugging Face](https://huggingface.co/datasets/Spritea/DET_images_and_labels/tree/main). We also provide codes to filter images, tranfer multi-class labels into binary labels, and visualize labels at the [Kit](https://github.com/Spritea/DET/tree/master/Kit).
 
 ### Links
 - The raw event data is provided at Mega(see the table above). Use Chrome browser to open these links to avoid installing Mega desktop software.
-- The accumulated images and corresponding labels: [GoogleDrive](https://drive.google.com/drive/folders/1tahDItA46QiCfvZxZeH0YCTgSR8IU2up?usp=sharing).
+- The accumulated images and corresponding labels: [GoogleDrive](https://drive.google.com/drive/folders/1tahDItA46QiCfvZxZeH0YCTgSR8IU2up?usp=sharing) and [Hugging Face](https://huggingface.co/datasets/Spritea/DET_images_and_labels/tree/main).
 - The software and API provided by Cele Pixel company to deal with raw event data: [SDK](https://github.com/CelePixel/CeleX5-MIPI).
 - The DVS device we used to construct DET: [CeleX-V](http://www.celepixel.com/#/Technology).
 - Development Code: [Kit](https://github.com/Spritea/DET/tree/master/Kit).
